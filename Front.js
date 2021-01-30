@@ -21,7 +21,7 @@ export default function Front() {
   var [count, setCount] = useState("");
  
   function increase() {
-    if (count <10) {
+    if (count <=10) {
       setCount(count +1);
     } else {
       setCount(0);
